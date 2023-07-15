@@ -1,0 +1,11 @@
+* {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
