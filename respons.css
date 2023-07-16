@@ -42,7 +42,7 @@ width: 100%;
 
 .nav-ul li {
   margin: 40px 25px;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .nav-ul a {
@@ -64,7 +64,7 @@ width: 100%;
 
 }
 .brand-title{
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 600;
 }
 .breand-description{
@@ -73,6 +73,15 @@ width: 100%;
 }
 
 
+/* main section*/
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.teams-container{
+  display: flex;
+}
 
 /* responsive media quary for mobile devices*/
 
@@ -84,7 +93,9 @@ width: 100%;
   .nav{
     flex-direction: column;
   }
-  
+  .nav-ul{
+    flex-direction: column;
+  }
 }
 
 /* tablet or medium devices */
@@ -92,7 +103,5 @@ width: 100%;
   .header{
     padding: 50px;
   }
-  .nav{
-    flex-direction: column;
-  }
+
 }
